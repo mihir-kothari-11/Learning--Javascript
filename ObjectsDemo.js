@@ -37,4 +37,35 @@ LjUser["PhoneNo"] = 92345
 console.log(LjUser);
 // To add key value pair after creation of objects
 
+LjUser.greeting = function(){
+    console.log("Hello js user");
+    
+}
+
+LjUser.greetingTwo = function(){
+    console.log(`Hello JS user : ${this.name}`);
+}
+
+console.log(LjUser.greeting());
+console.log(LjUser.greetingTwo());
+
+const obj1 = {1:"a", 2:"b"}
+const obj2 = {3:"c", 4:"d"}
+
+const obj3 = {...obj1,...obj2}
+// const obj3 = Object.assign(obj1,obj2)
+// const obj3 = Object.assign({},obj1,obj2)
+console.log(obj3);
+
+
+// Objects De-structure
+const objDes = {
+    emial: "kothari@google.com",
+    instructor:"Mihir"
+}
+console.log(objDes.instructor);
+
+const {instructor : ins} = objDes
+console.log(ins);
+
 
