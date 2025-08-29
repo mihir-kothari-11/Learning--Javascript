@@ -67,5 +67,3 @@ console.log(objDes.instructor);
 
 const {instructor : ins} = objDes
 console.log(ins);
-
-
