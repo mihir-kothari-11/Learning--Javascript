@@ -84,4 +84,3 @@ console.log(removed); // ["mango", "orange"]
 console.log(fruits);  // ["apple", "banana", "grapes"] (modified)
 
 */
-
