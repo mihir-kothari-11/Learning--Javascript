@@ -48,11 +48,18 @@ console.log(addTwo(10,30));
 
 // 3. Arrow Functions - It allow you to Implicity return and explicity return both
 
-/* const ArrowFunc = (num1,num2) => {
+/* 
+const ArrowFunc = (num1,num2) => {
     return num1 + num2
-} */
+} 
+*/
 
 // const ArrowFunc = (num1,num2) => num1 + num2 
 
 const ArrowFunc = (num1,num2) => (num1+num2)
 console.log(ArrowFunc(10,60));
+
+// Immediate Invoked Function Expression (IIFE)
+(function aurCode(){
+    console.log(`Hello`);
+})(); // Here semi colon is used to end context
