@@ -7,7 +7,7 @@ console.log(myArr2[2]);
 console.log(`My favourite superhero from marvel is : ${myArr2[2]}`);
 
 
-/* The above are two differrent ways to declare array in js and also in js you can stored of muiltple data SVGUnitTypes.
+/* The above are two differrent ways to declare array in js and also in js you can stored of muiltple data Types.
  */
 
 // Array methods
@@ -44,12 +44,12 @@ console.log(finalArr);
 
 const speardArr = [...dcHero,...marvelHero]
 console.log(speardArr);
-// This is spread operator and this works same as concat but the limitation is in concat only one array you can concat but in this you can add multiple.
+// This is spread operator and this works same as concat but the limitation  in concat is only one array you can concat but in this you can add multiple.
 
 
 const anotherArr = [1,2,3,[4,5,6],4,7,[8,[9]],5]
 const flatArr = anotherArr.flat(Infinity)
-console.log(flatArr);
+console.log(flatArr);   
 
 // Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
