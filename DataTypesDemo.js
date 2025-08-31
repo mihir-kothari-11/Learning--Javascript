@@ -27,3 +27,6 @@
 
 let name = "Mihir Kothari"
 console.log(typeof name);
+
+
+

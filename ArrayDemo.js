@@ -84,3 +84,6 @@ console.log(removed); // ["mango", "orange"]
 console.log(fruits);  // ["apple", "banana", "grapes"] (modified)
 
 */
+
+let arr1 = [,,,]
+console.log(`Length of the array :  ${arr1.length}`);
